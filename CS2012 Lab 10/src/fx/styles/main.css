@@ -1,0 +1,16 @@
+.monsterName{
+	
+	-fx-alignment: center;
+	-fx-font-size: 150%;
+	-fx-font-style: italic;
+	-fx-text-alignment: center;
+}
+
+.headerLabel{
+	
+	-fx-alignment: center;
+	-fx-font-size: 150%;
+	-fx-font-weight: bold;
+	-fx-text-alignment: center;
+	
+}

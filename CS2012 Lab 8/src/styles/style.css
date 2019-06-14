@@ -1,0 +1,88 @@
+
+.titletext{
+	
+	-fx-alignment: center;
+	
+	-fx-font-style: italic;
+	-fx-font-size: 500%;
+
+}
+
+.startbutton{
+	
+	-fx-alignment: center;
+
+}
+
+.box{
+	
+	-fx-alignment: center;
+
+}
+
+
+.grid{
+	
+	-fx-alignment: center;
+	-fx-grid-lines-visible: true;
+
+}
+
+.start{
+	
+	-fx-background-color: #4844ba;
+	-fx-alignment: center;
+	-fx-text-fill: #FFFFFF;
+	-fx-font-size: 110%;
+
+}
+.exit{
+	
+	-fx-background-color: #4844ba;
+	-fx-alignment: center;
+	-fx-text-fill: #FFFFFF;
+	-fx-font-size: 110%;
+}
+.wall{
+	
+	-fx-background-color: #470000;
+
+}
+.street{
+	
+	-fx-background-color: #a0a0a0;
+
+}
+
+.player{
+	
+	-fx-background-color: white;
+	-fx-alignment: center;
+	-fx-text-fill: #000000;
+	-fx-font-size: 110%;
+
+}
+
+.won{
+	
+	-fx-background-color: gold;
+	-fx-alignment: center;
+	-fx-text-fill: #000000;
+	-fx-font-size: 110%;
+
+}
+
+.dead{
+	
+	-fx-background-color: red;
+	-fx-alignment: center;
+	-fx-text-fill: #000000;
+	-fx-font-size: 110%;
+
+}
+
+.bull{
+	
+	-fx-background-color: #fffa00;
+
+}

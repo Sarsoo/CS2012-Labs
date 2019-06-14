@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane fx:controller="clickcounter.Controller"
+	xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10" styleClass = "GridPane" >
+	<padding>
+		<Insets top="25" right="25" bottom="10" left="25" />
+	</padding>
+	<Text fx:id="results" text="Clicked: 0" GridPane.columnIndex="0" GridPane.rowIndex="0"
+		GridPane.columnSpan="10" GridPane.halignment="CENTER"/>
+		
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="1" GridPane.columnIndex = "0" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="1" GridPane.columnIndex = "1" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="1" GridPane.columnIndex = "2" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="1" GridPane.columnIndex = "3" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="1" GridPane.columnIndex = "4" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="1" GridPane.columnIndex = "5" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="1" GridPane.columnIndex = "6" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="1" GridPane.columnIndex = "7" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="1" GridPane.columnIndex = "8" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="1" GridPane.columnIndex = "9" GridPane.halignment="CENTER"/>
+	
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="2" GridPane.columnIndex = "0" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="2" GridPane.columnIndex = "1" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="2" GridPane.columnIndex = "2" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="2" GridPane.columnIndex = "3" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="2" GridPane.columnIndex = "4" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="2" GridPane.columnIndex = "5" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="2" GridPane.columnIndex = "6" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="2" GridPane.columnIndex = "7" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="2" GridPane.columnIndex = "8" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="2" GridPane.columnIndex = "9" GridPane.halignment="CENTER"/>
+	
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="3" GridPane.columnIndex = "0" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="3" GridPane.columnIndex = "1" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="3" GridPane.columnIndex = "2" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="3" GridPane.columnIndex = "3" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="3" GridPane.columnIndex = "4" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="3" GridPane.columnIndex = "5" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="3" GridPane.columnIndex = "6" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="3" GridPane.columnIndex = "7" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="3" GridPane.columnIndex = "8" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="3" GridPane.columnIndex = "9" GridPane.halignment="CENTER"/>
+	
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="4" GridPane.columnIndex = "0" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="4" GridPane.columnIndex = "1" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="4" GridPane.columnIndex = "2" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="4" GridPane.columnIndex = "3" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="4" GridPane.columnIndex = "4" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="4" GridPane.columnIndex = "5" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="4" GridPane.columnIndex = "6" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="4" GridPane.columnIndex = "7" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="4" GridPane.columnIndex = "8" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="4" GridPane.columnIndex = "9" GridPane.halignment="CENTER"/>
+	
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="5" GridPane.columnIndex = "0" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="5" GridPane.columnIndex = "1" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="5" GridPane.columnIndex = "2" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="5" GridPane.columnIndex = "3" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="5" GridPane.columnIndex = "4" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="5" GridPane.columnIndex = "5" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="5" GridPane.columnIndex = "6" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="5" GridPane.columnIndex = "7" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="5" GridPane.columnIndex = "8" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="5" GridPane.columnIndex = "9" GridPane.halignment="CENTER"/>
+	
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="6" GridPane.columnIndex = "0" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="6" GridPane.columnIndex = "1" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="6" GridPane.columnIndex = "2" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="6" GridPane.columnIndex = "3" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="6" GridPane.columnIndex = "4" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="6" GridPane.columnIndex = "5" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="6" GridPane.columnIndex = "6" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="6" GridPane.columnIndex = "7" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="6" GridPane.columnIndex = "8" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="6" GridPane.columnIndex = "9" GridPane.halignment="CENTER"/>
+	
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="7" GridPane.columnIndex = "0" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="7" GridPane.columnIndex = "1" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="7" GridPane.columnIndex = "2" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="7" GridPane.columnIndex = "3" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="7" GridPane.columnIndex = "4" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="7" GridPane.columnIndex = "5" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="7" GridPane.columnIndex = "6" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="7" GridPane.columnIndex = "7" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="7" GridPane.columnIndex = "8" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="7" GridPane.columnIndex = "9" GridPane.halignment="CENTER"/>
+	
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="8" GridPane.columnIndex = "0" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="8" GridPane.columnIndex = "1" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="8" GridPane.columnIndex = "2" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="8" GridPane.columnIndex = "3" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="8" GridPane.columnIndex = "4" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="8" GridPane.columnIndex = "5" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="8" GridPane.columnIndex = "6" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="8" GridPane.columnIndex = "7" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="8" GridPane.columnIndex = "8" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="8" GridPane.columnIndex = "9" GridPane.halignment="CENTER"/>
+	
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="9" GridPane.columnIndex = "0" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="9" GridPane.columnIndex = "1" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="9" GridPane.columnIndex = "2" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="9" GridPane.columnIndex = "3" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="9" GridPane.columnIndex = "4" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="9" GridPane.columnIndex = "5" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="9" GridPane.columnIndex = "6" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="9" GridPane.columnIndex = "7" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="9" GridPane.columnIndex = "8" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="9" GridPane.columnIndex = "9" GridPane.halignment="CENTER"/>
+	
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="10" GridPane.columnIndex = "0" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="10" GridPane.columnIndex = "1" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="10" GridPane.columnIndex = "2" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="10" GridPane.columnIndex = "3" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="10" GridPane.columnIndex = "4" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="10" GridPane.columnIndex = "5" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="10" GridPane.columnIndex = "6" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="10" GridPane.columnIndex = "7" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="10" GridPane.columnIndex = "8" GridPane.halignment="CENTER"/>
+	<Button onAction="#handleButtonClick" text="unclicked" GridPane.rowIndex="10" GridPane.columnIndex = "9" GridPane.halignment="CENTER"/>
+
+	
+</GridPane>
